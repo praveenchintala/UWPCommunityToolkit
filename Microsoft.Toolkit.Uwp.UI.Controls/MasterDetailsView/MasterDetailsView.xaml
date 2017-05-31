@@ -139,6 +139,7 @@
                                 <VisualState x:Name="HasSelection">
                                     <VisualState.Setters>
                                         <Setter Target="NoSelectionPresenter.Visibility" Value="Collapsed" />
+                                       <Setter Target="SelectionDetailsPanel.Visibility" Value="Visible" />
                                     </VisualState.Setters>
                                 </VisualState>
                                 <VisualState x:Name="NoSelectionNarrow">
